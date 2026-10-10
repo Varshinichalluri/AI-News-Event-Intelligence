@@ -1,0 +1,1 @@
+import pandas as pd; import numpy as np; a=pd.read_csv("data/processed/articles_with_embeddings.csv"); c=pd.read_csv("data/processed/clustered_articles.csv"); e=np.load("data/processed/article_embeddings.npy"); print("Articles shape:",a.shape); print("Article columns:",a.columns.tolist()); print("Clustered columns:",c.columns.tolist()); print("Embeddings shape:",e.shape)
